@@ -1,0 +1,208 @@
+input[type="text"]{
+ border-radius: 10px;}
+
+input[type="email"]{
+ background: white;
+ border-radius: 10px;
+}
+input[type="submit"]{
+  background: black;
+  color: white;
+  width: 178px;
+  border-radius: 10px;
+}
+.omar{
+      height: 100px;
+      width: 100px;
+      background: turquoise;
+
+      border: yellow 10px solid;
+}
+div{
+  color: rgb(0, 0, 0);
+}
+h1{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif  15px;
+  font-weight: 800;
+}
+p{
+  text-align: center;
+  direction: rtl;
+}
+.o{
+    height: 200px;
+    width: 200px;
+    border: 5px black solid;
+
+    background-color: #0000ff;
+    background-image: url("D:\html and css and java and javascript\1-1024x698.png");
+    background-size: 100px 100px  ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50px 0px;
+  }
+.m{
+    border: 5px #000 solid;
+ 
+  
+    
+
+ }
+ *{
+  padding: 0;
+  margin: 0;
+ }
+ a{
+   text-decoration: none;
+   color:#000
+ }
+
+ a:hover{
+   color:  rgb(000,000,000);
+   font-size: 20px
+ }
+
+
+ .hh{
+     background-color: red;
+     margin: 10px;
+     width: 40px;
+     height: 50px;
+     padding: 5px;
+     display: inline-block;
+ }
+ span{
+      background-color: blue;
+      width: 70px;
+      height: 50px;
+      padding: 0 10px;
+      margin: 10px;
+      display: inline-block;
+ }
+
+ .div1{
+     visibility: hidden;
+ }
+
+ .yy{
+  height: 200px;
+  width: 200px;
+  background-color: rgb(255,000,000);
+  overflow: auto;
+ }
+
+ ul{
+    list-style: disc inside;
+ }
+ul li{
+     background-color: skyblue;
+}
+
+.l{
+  background-color: red;
+}
+
+.ll{
+    float: left;
+}
+.x{
+  clear: both;
+}
+
+.k{
+  width: 60px;
+  background-color: red;
+  position: sticky;
+  top: 50px;
+  
+}
+
+.v{
+  width: 60px;
+  background-color: blue;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+     color :blue;
+}
+.check:checked{
+    opacity: 0;
+}
+.text:focus{
+  outline:none;
+  border: 2px green solid;
+}
+
+.w::first-letter{
+    color: red;
+    font-size: 20px;
+}
+
+.w::first-line{
+   color: blue;
+   font-size: 18px;
+}
+
+::selection{
+   background:red ;
+   color:white
+}
+
+.z{
+    width: 70%;
+    background: rgb(212, 32, 32);
+    padding: 10px;
+    position: relative;
+}
+
+p::before{
+   content: "";
+   height: 5px;
+   width: 100%;
+   background: green;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.all{
+    display: inline-block;
+    width: 40%;
+    background: red;
+}
+
+
+@media screen and (max-width:400px) {
+    .all{
+        display: block;
+        width: 100%;
+    }
+    body{
+        background: #000;
+    }
+}
+
+@media screen and (main-width:401px) and (max-width:600px){
+    body{
+      background: #00f;
+    }
+}
+@media screen and (main-width:601px) and (max-width:780px) {
+    body{
+        background: #0f0;
+    }
+}
+  
